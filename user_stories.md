@@ -12,6 +12,8 @@ _As a [user role], I want [feature/goal], so that [reason]._
 **Notes:**
 - [Additional information or edge cases]
 
+## Admin User Stories
+
 _As a Admin, I want to log into the portal, so that I can manage the platform securely._
 
 **Acceptance Criteria:**
@@ -22,6 +24,7 @@ _As a Admin, I want to log into the portal, so that I can manage the platform se
 **Priority:** [High]
 **Story Points:** 2
 **Notes:**
+
 _As a Admin, I want log out the portal, so that I can protect system access._
 
 **Acceptance Criteria:**
@@ -33,6 +36,7 @@ _As a Admin, I want log out the portal, so that I can protect system access._
 **Story Points:** 1
 **Notes:**
 - Should not be complicated unless the admin has some website rendering issues
+  
   _As a Admin, I want to add doctors to the portal, so that the registry is updated._
 
 **Acceptance Criteria:**
@@ -44,6 +48,7 @@ _As a Admin, I want log out the portal, so that I can protect system access._
 **Story Points:** 3
 **Notes:**
 - Is 3 points assuming there is enough mastery to no dwandle too much
+  
   _As a Admin, I want to delete doctor profiles from the portal, so that threats are mitigated._
 
 **Acceptance Criteria:**
@@ -55,6 +60,8 @@ _As a Admin, I want log out the portal, so that I can protect system access._
 **Story Points:** 3
 **Notes:**
 - This could be pretty important depending on the accesses the profile has
+
+
   _As a Admin, I want run a stored procedure in MySQL CLI to get the number of appointments per month, so that I can track usage statistics._
 
 **Acceptance Criteria:**
@@ -66,6 +73,9 @@ _As a Admin, I want log out the portal, so that I can protect system access._
 **Story Points:** 5
 **Notes:**
 - The priority could change drastically depending on the reason for tracking usage statistics
+
+## Patient User Stories
+
   _As a patient, I want to view a list of doctors without logging, so that I can explore options without registering._
 
 **Acceptance Criteria:**
@@ -77,6 +87,7 @@ _As a Admin, I want log out the portal, so that I can protect system access._
 **Story Points:** 4
 **Notes:**
 - skipping the login to portal could be troublesome
+  
 _As a Patient , I want to sign up using my email and password, so that I can book appointments._
 
 **Acceptance Criteria:**
@@ -88,7 +99,8 @@ _As a Patient , I want to sign up using my email and password, so that I can boo
 **Story Points:** 4
 **Notes:**
 - The sign up process shouldn't be troublesome
-  _As a Patient, I want to log into the portal, so that I can manage my bookings._
+  
+_As a Patient, I want to log into the portal, so that I can manage my bookings._
 
 **Acceptance Criteria:**
 1.  Patient can correctly fill the email and password fields
@@ -99,7 +111,8 @@ _As a Patient , I want to sign up using my email and password, so that I can boo
 **Story Points:** 3
 **Notes:**
 - It should be easier to login
-    _As a Patient, I want to log out the portal, so that I can secure my account._
+  
+_As a Patient, I want to log out the portal, so that I can secure my account._
 
 **Acceptance Criteria:**
 1.  Patient can correctly find the logout button
@@ -110,7 +123,8 @@ _As a Patient , I want to sign up using my email and password, so that I can boo
 **Story Points:** 3
 **Notes:**
 - Most APIs do this functionality so it shouldn't be that hard
-     _As a Patient, I want to Log in and book an hour-long appointment , so that I can consult with a doctor._
+  
+_As a Patient, I want to Log in and book an hour-long appointment , so that I can consult with a doctor._
 
 **Acceptance Criteria:**
 1.  Patient can login correctly
@@ -121,7 +135,8 @@ _As a Patient , I want to sign up using my email and password, so that I can boo
 **Story Points:** 7
 **Notes:**
 - It involves creating functionality and managing dependencies across systems
-    _As a Patient, I want to view my upcoming appointments , so that I can prepare accordingly._
+  
+_As a Patient, I want to view my upcoming appointments , so that I can prepare accordingly._
 
 **Acceptance Criteria:**
 1.  Patient interact with the appointments section
@@ -132,7 +147,10 @@ _As a Patient , I want to sign up using my email and password, so that I can boo
 **Story Points:** 6
 **Notes:**
 - It involves reusing functionality and manage dependencies across systems
-    _As a Doctor, I want to Log into the portal , so that I can manage my appointments._
+
+## Doctor User Stories
+
+_As a Doctor, I want to Log into the portal , so that I can manage my appointments._
 
 **Acceptance Criteria:**
 1. Doctor can correctly join the page
@@ -143,7 +161,8 @@ _As a Patient , I want to sign up using my email and password, so that I can boo
 **Story Points:** 4
 **Notes:**
 - It involves reusing functionality and managing dependencies across systems
-    _As a Doctor, I want to view my appointment calendar , so that I can stay organized._
+  
+_As a Doctor, I want to view my appointment calendar , so that I can stay organized._
 
 **Acceptance Criteria:**
 1. Doctor can find the calendar section on the app
@@ -154,7 +173,8 @@ _As a Patient , I want to sign up using my email and password, so that I can boo
 **Story Points:** 4
 **Notes:**
 - If an API or prebuilt calendar is used, it shouldn't be complex( if it doesn't have connectivity issues with the databases)
-    _As a Doctor, I want to mark my unavailability  , so that I can inform patients of available slots._
+  
+_As a Doctor, I want to mark my unavailability  , so that I can inform patients of available slots._
 
 **Acceptance Criteria:**
 1.  Doctor can interact with the calendar correctly
@@ -165,7 +185,8 @@ _As a Patient , I want to sign up using my email and password, so that I can boo
 **Story Points:** 4
 **Notes:**
 - It involves creating functionality and managing dependencies across systems
-    _As a Doctor, I want to view the patient details for upcoming appointments, so that I can be prepared._
+  
+_As a Doctor, I want to view the patient details for upcoming appointments, so that I can be prepared._
 
 **Acceptance Criteria:**
 1.  Doctors can interact with the calendar correctly
